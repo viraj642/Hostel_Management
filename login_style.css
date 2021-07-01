@@ -1,0 +1,13 @@
+body{
+  background-image: url("lb.jpg");
+  background-size: cover;
+}
+#box{
+  margin-top: 13%;
+  padding: 40px 50px;
+  width: fit-content;
+  color: white;
+  box-shadow: 5px 8px 10px black;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
