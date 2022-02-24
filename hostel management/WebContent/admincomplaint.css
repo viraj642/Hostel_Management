@@ -1,0 +1,19 @@
+
+h2{
+  padding: 15px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table{
+  width: 60%;
+  margin: auto; 
+}
+th{
+	color: white;
+}
+.tbhead{
+	baground-color: black;
+}

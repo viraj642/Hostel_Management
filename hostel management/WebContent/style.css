@@ -1,0 +1,138 @@
+
+*{
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+   /* margin:auto;
+    margin-top: 10%;
+    width: 360px;
+    height: 420px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    box-sizing: border-box;
+    padding: 20px 50px;
+    border-radius:6px;
+   */
+    margin:auto;
+  padding: 30px;
+  color: black;
+  width: fit-content;
+  height: fit-content;
+  background-color:white;
+  box-shadow: 6px 6px 10px black;
+  padding: 20px 50px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1.0);
+  max-width: 220px;
+}
+body{
+     height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   
+}
+
+h1{
+    margin: 20px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+ input[type=text],input[type=password]{
+    /* width:100%;
+     padding:12px 20px;
+     margin: 4px 0;
+     box-sizing:border-box;
+     border: 1px solid #ccc;
+     transition: all 0.3s ease;
+     border-color: #9b59b6;
+     border-radius: 6px;
+     font-weight: bold;
+     font-size: 15px;
+     border-bottom-color:linear-gradient(135deg, #71b7e6, #9b59b6); */
+      width: 100%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  /*display: inline-block;*/
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  border-color: #9b59b6;
+}
+
+    
+
+button{
+   /* width:100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing:border-box;
+    border-radius:6px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    font-weight: bold;
+    font-size:17px;
+    cursor:pointer;*/
+    color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  /*cursor: pointer;*/
+  width: 100%;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    
+}
+
+button:hover {
+  opacity: 0.8;
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+ 
+@media(max-width: 584px){
+ #container{
+  max-width: 220px;
+}
+ input{
+    margin-bottom: 2px;
+    width: 100%;
+}
+}
+  @media(max-width: 459px){
+  #container{
+    flex-direction: column;
+    max-width: 220px;
+  }
+  input{
+    margin-bottom: 2px;
+    width: 100%;
+}
+}
+

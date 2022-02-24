@@ -1,0 +1,31 @@
+<html>
+    
+    <head>
+        <title>Complaint page</title>
+        <link rel="stylesheet" type="text/css" href="Complaint_style.css">
+    </head>
+    
+    <body>
+    	<div id="bg">
+    		<form action="complaint" method="get" enctype="multipart/form-data">
+	            <h2 style="text-align: center">Register complaint</h2>
+	        	<span class="details">Complaint Type</span>
+	        	<br>
+	        	<select name="comptype">
+	            	<option value="Water">Water</option>
+	            	<option value="Electricity">Electricity</option>
+	            	<option value="Room Allocation">Room Allocation</option>
+	            	<option value="Mess">Mess</option>
+	            	<option value="Other">Other</option>
+	        	</select>
+	        	<br><br>
+	        	<!--<span class="details">Date of complaint:</span>
+	        	<input type="date" name="complaindate"  maxlength="30"><br><br>-->
+	        	<span class="details">Complaint details(Max 1500 words):</span>
+	        	<textarea name="compdetails" rows="15" cols="50" required></textarea><br><br><br>
+	        	<input type="submit" value="Submit">
+	        	<input type="reset" value="Cancel">  
+        	</form>
+    	</div>
+    </body>
+</html>

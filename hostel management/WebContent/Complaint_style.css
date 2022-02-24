@@ -1,0 +1,58 @@
+
+body
+{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+#bg
+{
+	margin:30px auto;
+	width:40%;
+	background-color:white;
+	padding:5px 30px;
+}
+input, select, textarea{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  border-color: #9b59b6;
+  border-bottom-width: 2px;
+}
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-bottom:10px;
+}
+input[type=reset]
+{
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  border-color: #9b59b6;
+  border-bottom-width: 2px;
+}
+h2
+{
+    margin:10px;
+    text-align: center;
+    padding:0px 0px 20px;
+    font-size:30px;
+}
+form
+{
+    font-size:20px;
+    justify-content: center;
+    box-sizing:border-box;
+    padding:10px;
+   
+}
